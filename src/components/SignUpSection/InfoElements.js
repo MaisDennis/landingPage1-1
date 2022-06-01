@@ -103,7 +103,8 @@ export const InfoContainer = styled.div`
   }
   @media screen and (max-width: 480px) {
     padding: 0;
-    background-color: #8EE3EF;
+    background-color: #c94f65;
+    /* background-color: #8EE3EF; */
     /* height: 100%; */
   }
 `;

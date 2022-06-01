@@ -26,11 +26,12 @@ const HeroSection = () => {
       </HeroBg>
 
       <HeroContent>
-        <HeroH1>Cardápio Digital com QR Code</HeroH1>
+        <HeroH1>Venha criar o seu Cardápio com QR Code</HeroH1>
+        {/* <HeroH1>com QR Code</HeroH1> */}
         <HeroH2>
-          Sem necessidade de site, sem botões, sem complicações
-          <br/> O seu cardápio igual ao físico usado no restaurante, 
-          <br/> agora em formato digital
+          Sem necessidade de site, sem complicações
+          <br/> O seu cardápio digital igual ao físico usado no restaurante 
+          <br/> 
         </HeroH2>
         <HeroP>
         Atendimento em todo o Brasil
@@ -48,7 +49,7 @@ const HeroSection = () => {
             exact="true"
             offset={-80}
           >
-            Teste GRÁTIS s/ compromisso {hover ? <ArrowForward/> : <ArrowRight/>}
+            Teste GRÁTIS{hover ? <ArrowForward/> : <ArrowRight/>}
           </Button>
         </HeroBtnWrapper>
       </HeroContent>

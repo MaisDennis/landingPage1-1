@@ -109,7 +109,7 @@ export const HeroP = styled.p`
   font-size: 24px;  
   /* text-align: center; */
   width: 100%;
-  margin-top: 24px;
+  margin: 24px 0 12px;
   color: #fff;
 
   @media screen and (max-width: 960px) {
@@ -132,9 +132,16 @@ export const ImgBg = styled.img`
   
   @media screen and (max-width: 768px) {
     position: relative;
-    right: 500px;
+    right: 160px;
     opacity: .65;
     width: auto;
     height: 100%;
+  }
+  @media screen and (max-width: 480px) {
+    /* position: relative; */
+    right: 500px;
+    /* opacity: .65;
+    width: auto;
+    height: 100%; */
   }
 `;

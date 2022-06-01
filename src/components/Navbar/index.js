@@ -101,11 +101,11 @@ const Navbar = ({ toggle }) => {
 
             <WhatsappItem>
               <WhatsappLinks 
-                href="https://wa.me/5511983495853" 
+                href="https://wa.me/5511944694607" 
                 target="_blank"
               >
                 <FaWhatsapp size={16}/>
-                <WhatsappLabel>(11) 9 8349 5853</WhatsappLabel>
+                <WhatsappLabel>(11) 9-4469-4607</WhatsappLabel>
               </WhatsappLinks> 
             </WhatsappItem>
 

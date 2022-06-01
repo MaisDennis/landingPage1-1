@@ -97,15 +97,16 @@ const SignUpSection = () => {
             autoPlay 
             loop 
             muted 
-            src={Video} 
+            src={Video}
             type='video/mp4'
+            alt='sign-up-video'
           />
           <SignUpDiv>
             <Heading>
               Preencha os dados <br/>e entraremos em contato
             </Heading>
             <SignUpP>
-              ou Ligue: (11) 9-8349-5853
+              ou no Whatsapp: (11) 9-4469-4607
             </SignUpP>
 
             <SignUpForm>

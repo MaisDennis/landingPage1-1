@@ -4,7 +4,7 @@ import { CgCheckO } from 'react-icons/cg';
 // import { Button } from '../ButtonElements'
 import { 
   Column01, Column02,
-  Heading,
+  Heading, Heading2,
   IconDiv, Img01, Img02, Img03, Img04, ImgWrap, 
   InfoContainer, InfoRow, InfoWrapper,
   Item,
@@ -26,7 +26,8 @@ const SubHeroSection = ({
           <InfoRow imgStart={imgStart}>           
           <Column01>
             <TextWrapper>
-              <Heading>{headline}</Heading>
+              <Heading id={id}>{headline}</Heading>
+              <Heading2 id={id}>Black Novembro: 1 ano GRÁTIS!</Heading2>
               <Menu>
                 { item01
                   && (

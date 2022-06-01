@@ -27,6 +27,29 @@ export const Column02 = styled.div`
 export const Heading = styled.h3`
   font-size: 36px;
   line-height: 1.1;
+  text-decoration: ${({id}) => (
+    id === 'price' ? 'line-through' : 'none'
+  )};
+  
+
+  font-weight: 600;
+  margin-bottom: 24px;
+  color: #101522;
+  
+  @media screen and (max-width: 960px) {
+    font-size: 32px;
+  }
+  
+  @media screen and (max-width: 480px) {
+  }
+`;
+
+export const Heading2 = styled.h3`
+  display: ${({ id }) => (
+    id === 'price' ? 'block' : 'none'
+  )};
+  font-size: 36px;
+  line-height: 1.3;
   font-weight: 600;
   margin-bottom: 24px;
   color: #101522;
@@ -97,7 +120,7 @@ export const ImgWrap = styled.div`
 export const InfoContainer = styled.div`
   color: #fff;
     
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 820px) {
   }
   /* background: #12166B; */
 `;
@@ -174,7 +197,12 @@ export const Menu = styled.ul`
 export const TextWrapper = styled.div`
   max-width: 540px;
   /* background-color: #4433ee; */
-  
+
+  @media screen and (max-width: 820px) {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
   @media screen and (max-width: 480px) {
     max-width: 90%;
     margin: 0 auto;
